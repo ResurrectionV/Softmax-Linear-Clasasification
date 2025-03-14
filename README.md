@@ -17,20 +17,23 @@ Linear classification stands as a fundamental pillar in the edifice of machine l
 
 ## Getting Started
 
-### Prerequisites
+### Requirements
 
-Ensure your environment is equipped with:
+- **Python 3.8+** (recommended)
 
-- **Python 3.6+**
-- Essential libraries:
-  - `numpy`
-  - `pandas`
-  - `matplotlib`
-  - `scikit-learn`
-  - `jupyter`
+- **Standard Library Modules:**
+  - `math`
+  - `time`
+  - `random`
 
-Install them with:
+- **External Libraries:**
+  - **PyTorch:** for tensor operations and neural network functionalities.
+  - **Torchvision:** for accessing datasets like CIFAR10.
+  - **Matplotlib:** for data visualization.
+
+Install the external libraries using pip:
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn jupyter
+pip install torch torchvision matplotlib
+
 
